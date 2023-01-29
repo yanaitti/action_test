@@ -30,5 +30,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
+          config-file: cypress.config.js
           working-directory: e2e/
           spec: e2e/cypress/e2e/spec.js
