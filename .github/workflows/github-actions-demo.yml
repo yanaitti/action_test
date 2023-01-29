@@ -32,4 +32,4 @@ jobs:
         with:
           config-file: cypress.config.js
           working-directory: e2e/
-          spec: e2e/cypress/e2e/spec.js
+          spec: cypress/e2e/spec.js
