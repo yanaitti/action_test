@@ -29,3 +29,5 @@ jobs:
 
       - name: Cypress run
         uses: cypress-io/github-action@v2
+        with:
+          spec: e2e/cypress/e2e/spec.js
